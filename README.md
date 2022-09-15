@@ -35,11 +35,11 @@ yarn add package-modal-p14
 
 ## Exemple:
 
-![alt text](https://github.com/Getssone/Package-modal-p14/blob/master/src/assets/exemple-img/big-screen.jpeg)
+![alt text](https://github.com/Getssone/Packahe-Modal-p14-V2/blob/main/src/assets/exemple-img/big-screen.jpeg)
 
 or
 
-![alt text](https://github.com/Getssone/Package-modal-p14/blob/master/src/assets/exemple-img/small-screen.jpeg?raw=true)
+![alt text](https://github.com/Getssone/Packahe-Modal-p14-V2/blob/main/src/assets/exemple-img/small-screen.jpeg)
 
 ## Infos +
 
