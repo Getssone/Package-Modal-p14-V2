@@ -1,11 +1,36 @@
 {
-  "name": "package",
-  "version": "0.1.0",
-  "private": true,
+  "name": "package-modal",
+  "description": "création d'une modal avec \"texte\" et \"button\" variable",
+  "author": "Getssone",
+  "keywords": [
+    "react",
+    "modal",
+    "customizable",
+    "Getssone",
+    "modifiable",
+    "modulable",
+    "parametrable"
+  ],
+  "version": "0.1.13",
+  "private": false,
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Getssone/Package-modal-p14/tree/master"
+  },
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "babel-cli": "^6.26.0",
+    "create-component-lib": "^0.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -13,6 +38,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "build-lib": "set NODE_ENV=production&& rimraf dist && babel src/lib --out-dir dist --copy-files",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -21,7 +47,18 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "parserOptions": {
+      "babelOptions": {
+        "presets": [
+          [
+            "babel-preset-react-app",
+            false
+          ],
+          "babel-preset-react-app/prod"
+        ]
+      }
+    }
   },
   "browserslist": {
     "production": [
@@ -34,5 +71,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.1",
+    "@babel/preset-env": "^7.19.1"
   }
 }

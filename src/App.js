@@ -9,7 +9,7 @@ const close = "Here We Go ! 🚩"
 function App() {
     return (
         <div className="App">
-            <Modal texte={modal} close={close} />/
+            <Modal texte={modal} close={close} />
         </div>
     );
 }

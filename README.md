@@ -33,13 +33,25 @@ or
 
 yarn add package-modal-p14
 
-## Exemple:
+## Exemple Image:
 
 ![alt text](https://github.com/Getssone/Packahe-Modal-p14-V2/blob/main/src/assets/exemple-img/big-screen.jpeg)
 
 or
 
 ![alt text](https://github.com/Getssone/Packahe-Modal-p14-V2/blob/main/src/assets/exemple-img/small-screen.jpeg)
+
+## Exemple Code :
+
+> import Modal from "package-modal"
+
+> const texte = "Employee Created! It's Me Luigi 😉✅"
+
+>const close = "Here We Go ! 🚩"
+
+And now you can use 
+
+> Modal texte={texte} close={close}
 
 ## Infos +
 
